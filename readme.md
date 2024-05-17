@@ -33,7 +33,7 @@ Text classification is a fundamental task in natural language processing (NLP) t
 
 ### Models Accuracy
 
-#### A. Naive Bayes
+#### A. Naive Bayes from scratch
 
 | Model          | Mean Average F1-Score (%) |
 | -------------- | ------------------------- |
@@ -67,11 +67,11 @@ Text classification is a fundamental task in natural language processing (NLP) t
 
 ## Results
 
-- Naive Bayes models achieved accuracies around 50% and F1-Scores near 3.5%.
-- Scikit-learn Naive Bayes CountVectorizer model outperformed TF-IDF in F1-Score.
+- Scratch Naive Bayes model implementation achieved really low accuracy, and especially in F-Score.
+- Scikit-learn Naive Bayes got much higher results. Specifically, CountVectorizer model outperformed TF-IDF in F1-Score.
 - Word Embedding Models, particularly Glove, achieved the highest performance with a mean average F1-Score of 37.73%.
 - Changing the solver of logistic regression had a negligible effect on results.
 
 ## Conclusion
 
-Despite various preprocessing and model selection techniques, the performance of the models varied. Word embedding models, especially Glove, showed promising results. Further enhancements could include exploring different preprocessing methods and experimenting with deep learning architectures.s
+Despite various preprocessing and model selection techniques, the performance of the models varied. Word embedding models, especially Glove, showed promising results. Further enhancements could include exploring different preprocessing methods and experimenting with deep learning architectures.
